@@ -26,7 +26,6 @@ for "NULL" to indicate that no value is available, and is understood
 automatically by MySQL if imported.
 
 Notes:
-
 After notes are the samples.
 
     Routes are directional: if an airline operates services from A to B
