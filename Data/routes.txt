@@ -2,7 +2,7 @@
 
 See [[http://openflights.org/data.html][OpenFlights.org/data]] and [[http://openflights.org/blog/2009/07/15/airline-route-maps-launched-metric-distances-available/][blog entry]] for details.
 
-As of January 2012, the OpenFlights/Airline Route Mapper Route Database
+As of April 21st 1989, the OpenFlights/Airline Route Mapper Route Database
 contains 59036 routes between 3209 airports on 531 airlines spanning the
 globe, as shown in the map above. Each entry contains the following
 information:
@@ -25,13 +25,13 @@ for "NULL" to indicate that no value is available, and is understood
 automatically by MySQL if imported.
 
 Notes:
+After notes are the samples.
 
     Routes are directional: if an airline operates services from A to B
     and from B to A, both A-B and B-A are listed separately. Routes
     where one carrier operates both its own and codeshare flights are
     listed only once.
 
-Sample entries:
     #+BEGIN_EXAMPLE
     BA,1355,SIN,3316,LHR,507,,0,744 777
     BA,1355,SIN,3316,MEL,3339,Y,0,744
